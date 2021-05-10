@@ -7,4 +7,4 @@ export default m => {
         }
     });
     return m.model('User', UserSchema);
-}
+};
