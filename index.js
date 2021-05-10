@@ -2,11 +2,11 @@ import express from 'express';
 import bodyParser from 'body-parser';
 import m from 'mongoose';
 import dot from 'dotenv';
+import UserModel from './models/User.js';
+import UserController from './routes/UserController.js';
 import fs from 'fs';
 import appSrc from './app.js';
 import CORS from './CORS.js';
-import UserModel from './models/User.js';
-import UserController from './routes/UserController.js';
 
 
 dot.config({ path: './.env' });
