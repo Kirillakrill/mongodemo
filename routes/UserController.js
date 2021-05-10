@@ -22,4 +22,4 @@ export default (x, User) => {
     })
 
     return router;
-}
+};
